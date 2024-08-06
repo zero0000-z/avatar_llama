@@ -243,11 +243,11 @@ import time
 #TODO show examples below
 num_beams = 1
 temperature=0.1
-output = "/code/Video-LLaMA-main/zoo_300k"
+output = "output/"
 
 # question = input('please choice 1.only one video generate, 2.many videos generate and give path')
 question = 2
-video_path_root = '/code/Video-LLaMA-main/data/zoo_300k/zoo_300k/zoo_300k'
+video_path_root = 'data/zoo_300k/'
 # video_path = input("please input path of video:")
 # video_path = 'blank_video.mp4'
 image = None
@@ -284,7 +284,7 @@ if int(question)==1:
 
 elif int(question)==2:
     # templete of prompt 
-    input_sentence_file = "/code/Video-LLaMA-main/templete.txt"
+    input_sentence_file = "templete.txt"
 
 
     #get templete : 生成文本的指令
