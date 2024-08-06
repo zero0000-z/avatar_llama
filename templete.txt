@@ -1,0 +1,4 @@
+Combine two tags: {} to summarize the video content. Output requirement: just give the result including action in details and limiting 40 words.
+---
+Give me to summarize the video content. Need to include two labels: {}. Just give the results and limit 30 words.
+
