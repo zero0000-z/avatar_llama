@@ -1,0 +1,20 @@
+1.安装环境
+conda env create -f environment.yml
+conda activate videollama
+
+2.需要把相应的文件下载
+数据集下载到data文件夹里。
+模型下载看REMAD.md上面。需要下载:
+llama-2-13b-chat-hf到ckpt上。下载路径：https://huggingface.co/DAMO-NLP-SG/Video-LLaMA-2-13B-Finetuned/tree/main/llama-2-13b-chat-hf
+VL_LLaMA_2_13B_Pretrained.pth到path。下载路径：https://huggingface.co/DAMO-NLP-SG/Video-LLaMA-2-13B-Pretrained/tree/main
+
+
+
+
+3.脚本运行方式
+nohup python chat_videoV2.py \
+    --cfg-path "eval_configs/video_llama_eval_only_vl.yaml" \
+    --model_type "llama_v2"  --gpu-id 0  > zoo_300k_AnacondaAll.log 2>&1 &x
+
+
+
