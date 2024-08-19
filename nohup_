@@ -1,0 +1,25 @@
+Traceback (most recent call last):
+  File "/code/avatar_llama/chat_videoV2.py", line 15, in <module>
+    import gradio as gr
+  File "/opt/conda/envs/video-llama/lib/python3.9/site-packages/gradio/__init__.py", line 69, in <module>
+    from gradio.ipython_ext import load_ipython_extension
+  File "/opt/conda/envs/video-llama/lib/python3.9/site-packages/gradio/ipython_ext.py", line 2, in <module>
+    from IPython.core.magic import needs_local_scope, register_cell_magic
+  File "/opt/conda/envs/video-llama/lib/python3.9/site-packages/IPython/__init__.py", line 54, in <module>
+    from .terminal.embed import embed
+  File "/opt/conda/envs/video-llama/lib/python3.9/site-packages/IPython/terminal/embed.py", line 17, in <module>
+    from IPython.terminal.ipapp import load_default_config
+  File "/opt/conda/envs/video-llama/lib/python3.9/site-packages/IPython/terminal/ipapp.py", line 28, in <module>
+    from IPython.core.magics import (
+  File "/opt/conda/envs/video-llama/lib/python3.9/site-packages/IPython/core/magics/__init__.py", line 28, in <module>
+    from .pylab import PylabMagics
+  File "/opt/conda/envs/video-llama/lib/python3.9/site-packages/IPython/core/magics/pylab.py", line 21, in <module>
+    from IPython.core.pylabtools import backends
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 846, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 935, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1079, in path_stats
+  File "<frozen importlib._bootstrap_external>", line 142, in _path_stat
+KeyboardInterrupt
